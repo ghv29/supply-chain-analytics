@@ -13,6 +13,10 @@ venv/
 # Anaconda Projects file-browser DB (auto-generated, not project data)
 anaconda_projects/
 
+# Secrets — never commit
+.env
+
 # OS / IDE
 .DS_Store
 Thumbs.db
+.vscode/
