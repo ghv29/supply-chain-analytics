@@ -53,7 +53,7 @@ Start the database:
 
 ```bash
 docker run --name supply-chain-db \
-  -e POSTGRES_PASSWORD=learnsql \
+  -e POSTGRES_PASSWORD=<choose-your-own-password> \
   -e POSTGRES_DB=supplychain \
   -p 5432:5432 \
   -v supply_chain_pgdata:/var/lib/postgresql/data \
