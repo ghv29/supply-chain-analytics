@@ -36,7 +36,7 @@ Fill in every table. Mark PK, and list FKs with what they point to.
 | `categories` |Category Id | Department Id → Department|
 | `departments` |department_id | |
 
-<!-- Sketch image saved at: docs/________ -->
+<!-- Sketch image saved at: docs/data-model.png-->
 
 ## 7. Decisions I made (and why)
 Splitting department/category was so that the reduncany is eliminated as well as to keep the data easier to manage.The reason behind spliting products into categories and department was that it was 120 products repeating throughout.Also, department & category can exist without a product giving it a reference. On  the other hand, splitting shipping mode off orders was avoided as it was only 4 values repeating and was not worth a whole extra table and a join, but a 2 level product hierarchy is.
